@@ -28,10 +28,13 @@ public class frmPrincipal extends javax.swing.JFrame {
     private void initComponents() {
 
         btnCatedrático = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         btnCatedrático.setText("Catedrático");
+
+        jButton1.setText("preuba");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -41,13 +44,19 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addGap(38, 38, 38)
                 .addComponent(btnCatedrático)
                 .addContainerGap(273, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(132, 132, 132))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(61, 61, 61)
                 .addComponent(btnCatedrático)
-                .addContainerGap(216, Short.MAX_VALUE))
+                .addGap(64, 64, 64)
+                .addComponent(jButton1)
+                .addContainerGap(129, Short.MAX_VALUE))
         );
 
         pack();
@@ -90,5 +99,6 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnCatedrático;
+    private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
 }
