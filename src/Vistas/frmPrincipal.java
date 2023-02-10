@@ -32,6 +32,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnFabian = new javax.swing.JButton();
         BtnRieckof = new javax.swing.JButton();
         btnAlex = new javax.swing.JButton();
+        btnIsmar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -44,6 +45,8 @@ public class frmPrincipal extends javax.swing.JFrame {
         BtnRieckof.setText("Rieckof");
 
         btnAlex.setText("Alex Avila");
+
+        btnIsmar.setText("Ismar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -59,11 +62,12 @@ public class frmPrincipal extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btnCatedrático)
                             .addComponent(BtnRieckof))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 85, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btnFabian)
-                            .addComponent(jButton1))
-                        .addGap(126, 126, 126))))
+                            .addComponent(jButton1)
+                            .addComponent(btnIsmar))
+                        .addGap(121, 121, 121))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -76,7 +80,9 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(BtnRieckof))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnIsmar)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
                 .addComponent(btnAlex)
                 .addGap(34, 34, 34))
         );
@@ -124,6 +130,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     public javax.swing.JButton btnAlex;
     public javax.swing.JButton btnCatedrático;
     public javax.swing.JButton btnFabian;
+    public javax.swing.JButton btnIsmar;
     private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
 }
