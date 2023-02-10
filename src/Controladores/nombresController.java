@@ -62,7 +62,7 @@ public class nombresController implements ActionListener {
         }
         if(e.getSource()==this.VistaPrincipal.btnDaniel)
         {
-            JOptionPane.showMessageDialog(null, "Mi nombre es: Daniel Martinez", "PROBANDO MVC Carlos", 2 );
+            JOptionPane.showMessageDialog(null, "Mi nombre es: Daniel Martinez", "PROBANDO MVC", 2 );
         }
     }
  
