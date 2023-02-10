@@ -35,6 +35,7 @@
                           <Component id="btnCatedrático" min="-2" max="-2" attributes="0"/>
                           <Component id="BtnRieckof" min="-2" max="-2" attributes="0"/>
                           <Component id="btnAlex" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnJuanjo" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="40" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -75,7 +76,10 @@
                   <Component id="BtnRieckof" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="btnIsmar" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnIsmar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnJuanjo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace pref="36" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnAlex" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -151,6 +155,14 @@
     <Component class="javax.swing.JButton" name="btnJordy">
       <Properties>
         <Property name="text" type="java.lang.String" value="Jordy"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnJuanjo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Juan Sales"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>

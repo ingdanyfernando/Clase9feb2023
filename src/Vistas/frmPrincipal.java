@@ -36,6 +36,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnCarlos = new javax.swing.JButton();
         btnDaniel = new javax.swing.JButton();
         btnJordy = new javax.swing.JButton();
+        btnJuanjo = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -57,6 +58,8 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         btnJordy.setText("Jordy");
 
+        btnJuanjo.setText("Juan Sales");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -71,7 +74,8 @@ public class frmPrincipal extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btnCatedrático)
                             .addComponent(BtnRieckof)
-                            .addComponent(btnAlex))
+                            .addComponent(btnAlex)
+                            .addComponent(btnJuanjo))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
@@ -101,7 +105,9 @@ public class frmPrincipal extends javax.swing.JFrame {
                     .addComponent(jButton1)
                     .addComponent(BtnRieckof))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnIsmar)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnIsmar)
+                    .addComponent(btnJuanjo))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAlex)
@@ -156,6 +162,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     public javax.swing.JButton btnFabian;
     public javax.swing.JButton btnIsmar;
     public javax.swing.JButton btnJordy;
+    public javax.swing.JButton btnJuanjo;
     private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
 }
