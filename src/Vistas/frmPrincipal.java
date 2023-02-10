@@ -29,6 +29,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         btnCatedrático = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        btnFabian = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -36,24 +37,28 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         jButton1.setText("preuba");
 
+        btnFabian.setText("Fabian");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(38, 38, 38)
                 .addComponent(btnCatedrático)
-                .addContainerGap(273, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addGap(132, 132, 132))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnFabian)
+                    .addComponent(jButton1))
+                .addGap(126, 126, 126))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(61, 61, 61)
-                .addComponent(btnCatedrático)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnCatedrático)
+                    .addComponent(btnFabian))
                 .addGap(64, 64, 64)
                 .addComponent(jButton1)
                 .addContainerGap(129, Short.MAX_VALUE))
@@ -99,6 +104,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnCatedrático;
+    public javax.swing.JButton btnFabian;
     private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
 }
