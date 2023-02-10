@@ -30,6 +30,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnCatedrático = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         btnFabian = new javax.swing.JButton();
+        BtnRieckof = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -39,13 +40,17 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         btnFabian.setText("Fabian");
 
+        BtnRieckof.setText("Rieckof");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(38, 38, 38)
-                .addComponent(btnCatedrático)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnCatedrático)
+                    .addComponent(BtnRieckof))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnFabian)
@@ -60,7 +65,9 @@ public class frmPrincipal extends javax.swing.JFrame {
                     .addComponent(btnCatedrático)
                     .addComponent(btnFabian))
                 .addGap(64, 64, 64)
-                .addComponent(jButton1)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton1)
+                    .addComponent(BtnRieckof))
                 .addContainerGap(129, Short.MAX_VALUE))
         );
 
@@ -103,6 +110,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JButton BtnRieckof;
     public javax.swing.JButton btnCatedrático;
     public javax.swing.JButton btnFabian;
     private javax.swing.JButton jButton1;
